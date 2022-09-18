@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "outDir": "dist/",
+    "lib": ["ES2015", "DOM"]
+  },
+  "include": ["src/**/*", "rollup.config.ts"],
+  "exclude": ["node_modules"],
+}
